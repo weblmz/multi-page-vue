@@ -19,3 +19,8 @@ yarn build
 ```
 yarn lint
 ```
+
+### 添加页面
+```sh
+yarn gen:page
+```

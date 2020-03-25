@@ -4,7 +4,7 @@ const glob = require('glob')
 const entries = glob.sync('src/pages/*')
 
 // 生成pages配置对象
-const pages = entries.reduce((result, cur, index) => {
+const pages = entries.reduce((result, cur) => {
   const pageGroup = glob.sync(cur + '/*')
   const pageIndex = cur.substring(cur.lastIndexOf('/') + 1)
   const page = {

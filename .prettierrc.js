@@ -2,7 +2,7 @@
 // 格式化工具prettier vetur
 module.exports = {
   // 尾随逗号
-  trailingComma: false,
+  trailingComma: 'none',
   tabWidth: 2,
   // 分号
   semi: false,

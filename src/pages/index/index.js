@@ -4,4 +4,4 @@ Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App)
-}).$mount('#index')
+}).$mount('#index-root')

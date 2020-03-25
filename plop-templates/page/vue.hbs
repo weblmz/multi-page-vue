@@ -1,15 +1,15 @@
 <template>
-  <div id="about-page-container">about page</div>
+  <div id="{{ name }}-page-container">{{ name }} page</div>
 </template>
 
 <script>
 export default {
-  name: 'About',
+  name: '{{ properCase name }}',
   data() {
     return {}
   },
   created() {
-    console.log('当前页面：about')
+    console.log('当前页面：{{ name }}')
   },
   methods: {}
 }
