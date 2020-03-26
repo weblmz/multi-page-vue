@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import axios from '@/axios'
 export default {
   name: 'Index',
   data() {
@@ -10,6 +11,13 @@ export default {
   },
   created() {
     console.log('当前页面：index')
+    axios
+      .post('https://test-api.dacallapp.com/open/flow/share', {
+        id: 'xxx'
+      })
+      .then(res => {
+        console.log(res)
+      })
   },
   methods: {}
 }

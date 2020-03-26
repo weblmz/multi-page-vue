@@ -14,7 +14,12 @@
     "gen:page": "plop"
   },
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weblmz/multi-page-vue.git"
+  },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.6.4",
     "vue": "^2.6.11"
   },

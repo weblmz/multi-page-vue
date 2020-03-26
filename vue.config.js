@@ -1,3 +1,4 @@
+const path = require('path')
 const glob = require('glob')
 
 // 获取入口文件夹
@@ -16,4 +17,13 @@ const pages = entries.reduce((result, cur) => {
   return result
 }, {})
 
-module.exports = { pages }
+module.exports = {
+  pages,
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@': path.join(__dirname, 'src')
+      }
+    }
+  }
+}
