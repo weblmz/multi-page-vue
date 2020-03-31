@@ -18,6 +18,10 @@ export default {
       .then(res => {
         console.log(res)
       })
+
+    axios.post('/mock-api/test/getInfo', {}).then(res => {
+      console.log(res, '================')
+    })
   },
   methods: {}
 }

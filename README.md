@@ -18,3 +18,17 @@ yarn lint     # 检查项目语法规范
 yarn add element-ui # 添加新包
 
 ```
+
+> plop 用于快速构建新页面
+
+> axios 用于网络请求
+
+> mockjs 用于没有后端配合时的 api 数据模拟，mockjs本身是假的数据模拟，并不产生真是请求，所以使用node中间件搭建mock服务端，模拟真实请求，在线上模拟请求时，仍使用原有能力。
+
+> autoprefixer 用于自动添加 css 前缀
+
+> @babel/plugin-transform-runtime -D // 处理 js 内置语法 api 如 function * gen() { yield 1; }; promise 等 *需要在 babel.config.js 中配置 sourceType: 'unambiguous'以区分 commonjs 和 es6 的导入导出方式
+
+> chokidar 监控文件变化
+
+> .env.development .env.production 配置环境变量 process.env[vari]
