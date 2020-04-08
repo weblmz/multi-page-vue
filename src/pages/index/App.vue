@@ -1,5 +1,8 @@
 <template>
-  <div id="index-page-container">index page</div>
+  <div id="index-page-container">
+    index page
+    <svg-icon icon-class="like" />
+  </div>
 </template>
 
 <script>
@@ -27,4 +30,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+svg {
+  color: blue;
+  font-size: 66px;
+}
+</style>

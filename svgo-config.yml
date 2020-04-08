@@ -1,0 +1,9 @@
+plugins:
+  - removeTitle: true
+  - convertPathData: false
+  - convertColors:
+      shorthex: false
+  - removeUselessDefs: true
+  - removeStyleElement: true
+  - removeAttrs:
+      attrs: 'path:fill'

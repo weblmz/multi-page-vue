@@ -23,7 +23,7 @@ yarn add element-ui # 添加新包
 
 > axios 用于网络请求
 
-> mockjs 用于没有后端配合时的 api 数据模拟，mockjs本身是假的数据模拟，并不产生真是请求，所以使用node中间件搭建mock服务端，模拟真实请求，在线上模拟请求时，仍使用原有能力。
+> mockjs 用于没有后端配合时的 api 数据模拟，mockjs 本身是假的数据模拟，并不产生真是请求，所以使用 node 中间件搭建 mock 服务端，模拟真实请求，在线上模拟请求时，仍使用原有能力。
 
 > autoprefixer 用于自动添加 css 前缀
 
@@ -32,3 +32,7 @@ yarn add element-ui # 添加新包
 > chokidar 监控文件变化
 
 > .env.development .env.production 配置环境变量 process.env[vari]
+
+> yarn add svgo svgo-loader svg-sprite-loader -D
+
+> 往 src/icons 文件夹下添加.svg 文件即可使用组件 svg-icon 引用 svg
