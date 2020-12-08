@@ -35,4 +35,4 @@ yarn add element-ui # 添加新包
 
 > yarn add svgo svgo-loader svg-sprite-loader -D
 
-> 往 src/icons 文件夹下添加.svg 文件即可使用组件 svg-icon 引用 svg
+> 添加 svgo-config.yml配置，配置vue.config.js 添加SvgIcon组件 往 src/icons 文件夹下添加.svg 文件即可使用组件 svg-icon 引用 svg
